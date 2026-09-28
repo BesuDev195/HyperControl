@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "hyperControl",
+    "slug": "hyperControl",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hyperc.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "hypercontrol",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hypercontrol.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hyperc.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hypercontrol.app"
+    },
+    "web": {
+      "favicon": "./assets/hyperc.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
